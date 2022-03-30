@@ -725,7 +725,15 @@ fn main() {
         }
     }
 
+<<<<<<< HEAD
     let matches = App::new(crate_name!())
+=======
+    // The following line is scanned by CI configuration script to
+    // separate cargo caches according to the version of sbf-tools.
+    let bpf_tools_version = "v1.24";
+    let version = format!("{}\nbpf-tools {}", crate_version!(), bpf_tools_version);
+    let matches = clap::Command::new(crate_name!())
+>>>>>>> 689064a4f (Bump sbf-tools version to v1.24)
         .about(crate_description!())
         .version(crate_version!())
         .arg(

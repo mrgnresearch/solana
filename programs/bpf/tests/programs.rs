@@ -1439,10 +1439,14 @@ fn assert_instruction_count() {
             ("solana_bpf_rust_noop", 326),
             ("solana_bpf_rust_param_passing", 146),
             ("solana_bpf_rust_rand", 429),
-            ("solana_bpf_rust_sanity", 9139),
+            ("solana_bpf_rust_sanity", 52290),
             ("solana_bpf_rust_secp256k1_recover", 25707),
+<<<<<<< HEAD
             ("solana_bpf_rust_sha", 26390),
 >>>>>>> 03ed334eb (Double the chunk size for sending the program binary data in tx)
+=======
+            ("solana_bpf_rust_sha", 25251),
+>>>>>>> 689064a4f (Bump sbf-tools version to v1.24)
         ]);
     }
 
