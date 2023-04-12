@@ -400,7 +400,7 @@ impl Default for LedgerStorageConfig {
 
 #[derive(Clone)]
 pub struct LedgerStorage {
-    connection: bigtable::BigTableConnection,
+    pub connection: bigtable::BigTableConnection,
 }
 
 impl LedgerStorage {
