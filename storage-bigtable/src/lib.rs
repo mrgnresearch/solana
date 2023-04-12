@@ -35,10 +35,10 @@ extern crate solana_metrics;
 #[macro_use]
 extern crate serde_derive;
 
-mod access_token;
-mod bigtable;
-mod compression;
-mod root_ca_certificate;
+pub mod access_token;
+pub mod bigtable;
+pub mod compression;
+pub mod root_ca_certificate;
 
 #[derive(Debug, Error)]
 pub enum Error {
