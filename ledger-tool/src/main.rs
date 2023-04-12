@@ -105,8 +105,8 @@ use {
     },
 };
 
-mod bigtable;
-mod ledger_path;
+pub mod bigtable;
+pub mod ledger_path;
 
 #[derive(PartialEq, Eq)]
 enum LedgerOutputMethod {
