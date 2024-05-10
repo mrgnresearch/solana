@@ -580,6 +580,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "borsh"
+version = "1.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dbe5b10e214954177fb1dc9fbd20a1a2608fe99e6c832033bdc7cea287a20d77"
+dependencies = [
+ "cfg_aliases",
+]
+
+[[package]]
 name = "borsh-derive"
 version = "0.9.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -828,6 +837,12 @@ name = "cfg-if"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
+
+[[package]]
+name = "cfg_aliases"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fd16c4719339c4530435d38e511904438d07cce7950afa3718a84ac36c10e89e"
 
 [[package]]
 name = "chrono"
@@ -4758,7 +4773,7 @@ dependencies = [
 name = "solana-banks-client"
 version = "1.15.0"
 dependencies = [
- "borsh",
+ "borsh 1.5.0",
  "futures 0.3.24",
  "solana-banks-interface",
  "solana-banks-server",
@@ -5914,7 +5929,7 @@ dependencies = [
  "bincode",
  "bitflags",
  "blake3",
- "borsh",
+ "borsh 0.9.3",
  "borsh-derive",
  "bs58",
  "bv",
@@ -5967,7 +5982,7 @@ dependencies = [
  "bincode",
  "bitflags",
  "blake3",
- "borsh",
+ "borsh 0.9.3",
  "borsh-derive",
  "bs58",
  "bv",
@@ -6366,7 +6381,7 @@ dependencies = [
  "base64 0.13.0",
  "bincode",
  "bitflags",
- "borsh",
+ "borsh 0.9.3",
  "bs58",
  "bytemuck",
  "byteorder",
@@ -6416,7 +6431,7 @@ dependencies = [
  "base64 0.13.0",
  "bincode",
  "bitflags",
- "borsh",
+ "borsh 1.5.0",
  "bs58",
  "bytemuck",
  "byteorder",
@@ -6769,7 +6784,7 @@ dependencies = [
  "Inflector",
  "base64 0.13.0",
  "bincode",
- "borsh",
+ "borsh 1.5.0",
  "bs58",
  "lazy_static",
  "log",
@@ -7041,7 +7056,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fbc000f0fdf1f12f99d77d398137c1751345b18c88258ce0f99b7872cf6c9bd6"
 dependencies = [
  "assert_matches",
- "borsh",
+ "borsh 0.9.3",
  "num-derive",
  "num-traits",
  "solana-program 1.14.8",
