@@ -10,7 +10,7 @@ documentation = "https://docs.rs/solana-rpc-client-api"
 edition = "2021"
 
 [dependencies]
-base64 = "0.13.0"
+base64 = "0.22.1"
 bs58 = "0.4.0"
 jsonrpc-core = "18.0.0"
 reqwest = { version = "0.11.12", default-features = false, features = ["blocking", "brotli", "deflate", "gzip", "rustls-tls", "json"] }
