@@ -10,7 +10,7 @@ documentation = "https://docs.rs/solana-quic-client"
 edition = "2021"
 
 [dependencies]
-async-mutex = "1.4.0"
+async-mutex = "1.4.1"
 async-trait = "0.1.57"
 futures = "0.3"
 itertools = "0.10.5"
