@@ -6,7 +6,7 @@ license = "Apache-2.0"
 publish = false
 
 [dependencies]
-log = { version = "0.4.17", features = ["std"] }
+log = { version = "0.4.29", features = ["std"] }
 regex = "1.6.0"
 
 [[bin]]
